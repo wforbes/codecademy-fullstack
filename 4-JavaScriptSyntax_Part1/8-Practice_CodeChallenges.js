@@ -194,9 +194,146 @@ function truthyOrFalsy(v) {
 function numImaginaryFriends(total) {
 	return Math.round(total * 0.33);
 }
+
 //11 - sillySentence()
+/*
+	Write a function, sillySentence(), that has 3 string parameters 
+	and returns the following silly sentence with the blanks filled 
+	in by the arguments passed into the function:
+	"I am so _(adjective)_ because I _(verb)_ coding! Time to write
+		some more awesome _(noun)_!"
+	sillySentence('excited', 'love', 'functions');
+	// Should return 'I am so excited because I love coding! Time to write some more awesome functions!'
+*/
+function sillySentence(a, v, n) {
+	return `I am so ${a} because I ${v} coding! Time to write some more awesome ${n}!`;
+}
 
 //12 - howOld()
+/*
+	Write a function, howOld(), that has two number parameters, age and
+	year, and returns how old someone who is currently that age was 
+	(or will be) during that year. Handle three different cases:
+    If the year is in the future, you should return a string in the following format:
+    'You will be [calculated age] in the year [year passed in]'
+    If the year is before they were born, you should return a string in the following format:
+    'The year [year passed in] was [calculated number of years] years before you were born'
+    If the year is in the past but not before the person was born, you should return a string in the following format:
+    'You were [calculated age] in the year [year passed in]'
+*/
+function howOld(age, year) {
+	const currentYear = new Date().getFullYear();
+	if(year > currentYear) {
+		const calcAge = (year - currentYear) + age;
+		return `You will be ${calcAge} in the year ${year}`;
+	} else if(year < currentYear) {
+		if ( (currentYear - age) > year ) {
+			const calcYears = (currentYear - age) - year;
+			return `The year ${ year } was ${ calcYears } years before you were born`;
+		} else {
+			const calcAge = age - (currentYear - year);
+			return `You were ${ calcAge } in the year ${ year }`;
+		}
+	}
+}
+
 //13 - Fix the broken code (round 2)!
+/*
+	Given the percentage of DNA shared between two people, 
+	you can calculate their likely familial relationship.
+	We wrote a function, whatRelation(), that has one number 
+	parameter, percentSharedDNA, and returns the likely relationship. 
+	We expect the number passed in to always be an integer from 
+	0 to 100, but for some reason it’s not working!
+	Here’s how it’s supposed to calculate the relationship:
+		100 should return 'You are likely identical twins.'
+		35-99 should return 'You are likely parent and child 
+			or full siblings.'
+		14-34 should return 'You are likely grandparent and grandchild,
+			 aunt/uncle and niece/nephew, or half siblings.'
+		6-13 should return 'You are likely 1st cousins.'
+		3-5 should return 'You are likely 2nd cousins.'
+		1-2 should return 'You are likely 3rd cousins.'
+		0 should return 'You are likely not related.'
+	Unfortunately, it’s not working how we want!
+*/
+const whatRelation = percentSharedDNA => {
+	if (percentSharedDNA === 100) {
+		return 'You are likely identical twins.'
+	}
+	if (percentSharedDNA > 35) {
+		return 'You are likely parent and child or full siblings.'
+	}
+	if (percentSharedDNA > 13) {
+		return 'You are likely grandparent and grandchild, aunt/uncle and niece/nephew, or half siblings.'
+	}
+	if (percentSharedDNA > 5) {
+		return 'You are likely 1st cousins.'
+	}
+	if (percentSharedDNA > 2) {
+		return 'You are likely 2nd cousins.'
+	}
+	if (percentSharedDNA > 0) {
+		return 'You are likely 3rd cousins'
+	}
+	return 'You are likely not related.'
+}
+console.log(whatRelation(34))
+// Should print 'You are likely grandparent and grandchild, aunt/uncle and niece/nephew, or half siblings.'
+console.log(whatRelation(3))// Should print 'You are likely 2nd cousins.'
+
 //14 - tipCalculator()
+/*
+	Create a function, tipCalculator(), that has two parameters, 
+	a string representing the quality of the service received and 
+	a number representing the total cost.
+
+	Return the tip, as a number, based on the following:
+	‘bad’ should return a 5% tip
+	‘ok’ should return a 15% tip
+	‘good’ should return a 20% tip
+	‘excellent’ should return a 30% tip
+	all other inputs should default to 18%
+*/
+function tipCalculator(quality, total) {
+	const tips = {
+		'bad':0.05,
+		'ok':0.15,
+		'good':0.2,
+		'excellent':0.3,
+		'default':0.18
+	}
+	if(tips.hasOwnProperty(quality)) {
+		return tips[quality] * total;
+	}
+	return tips['default'] * total;
+}
+
 //15 - toEmoticon()
+/*
+	Write a function, toEmoticon(), that takes in a string 
+	and returns the corresponding emoticon as a string. 
+	Use a switch/case, and cover these cases:
+	'shrug' should return '|_{"}_|'
+	'smiley face' should return ':)'
+	'frowny face' should return':('
+	'winky face' should return ';)'
+	'heart' should return '<3'
+	any other input should return '|_(* ~ *)_|'
+*/
+function toEmoticon(emo) {
+	switch(emo) {
+		case 'shrug':
+			return '|_{"}_|';
+		case 'smiley face':
+			return ':)';
+		case 'frowny face':
+			return ':(';
+		case 'winky face':
+			return ';)';
+		case 'heart':
+			return '<3';
+		default:
+			return '|_(* ~ *)_|';
+	}
+}
