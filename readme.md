@@ -24,4 +24,12 @@ These projects all had an intro paragraph and then a step-by-step set of instruc
   - [Training Day](https://github.com/wforbes/codecademy-fullstack/blob/master/4-JavaScriptSyntax_Part1/7-TrainingDays.js) - Practice with scope using anonymous functions.
   - [Practice: Code Challenges](https://github.com/wforbes/codecademy-fullstack/blob/master/4-JavaScriptSyntax_Part1/8-Practice_CodeChallenges.js) - A collection of 15 small challenges that cover everything from this section.
   - [Number Guesser](https://github.com/wforbes/codecademy-fullstack/blob/master/4-JavaScriptSyntax_Part1/9-NumberGuesser.js) - A few functions with specific instructions that runs a number guessing game in the browser on the project's codecademy page.
-- 5 - ...
+- 5 - JavaScript Syntax, Part 2
+  - Secret Message - Demonstrates array functions: push, pop, indexOf, shift, unshift, splice, and join.
+  - Whale Talk - Demonstrates looping over arrays and conditionally pushing values to them.
+  - Meal Maker - Demonstrates Object related concepts including getters, setters, property assignment decomposition, and 'this' scope.
+  - Team Stats - Demonstrates Objects holding arrays of objects, property assignment decomposition, getters, setters, etc.
+  - Mini Linter - Demonstrates array iterator functions: map, filter, forEach.
+  - Lodash - Practice arrays, loops, objects, iterators by writing implementations to some of the functionality from the lodash library
+  - Credit Card Checker - Practice all concepts from this section by creating functions that parse credit card numbers and follow a specified algorithm to check if they are valid.
+  - Mysterious Organism - Practice all concepts from this section by creating an object that models organisms with random DNA strands. It mutates, compares, and calculates the organisms survivability based on them.
