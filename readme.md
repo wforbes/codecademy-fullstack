@@ -30,6 +30,6 @@ These projects all had an intro paragraph and then a step-by-step set of instruc
   - Meal Maker - Demonstrates Object related concepts including getters, setters, property assignment decomposition, and 'this' scope.
   - Team Stats - Demonstrates Objects holding arrays of objects, property assignment decomposition, getters, setters, etc.
   - Mini Linter - Demonstrates array iterator functions: map, filter, forEach.
-  - Lodash - Practice arrays, loops, objects, iterators by writing implementations to some of the functionality from the lodash library
+  - Lodash - Practice arrays, loops, objects, iterators by writing implementations to some of the functionality from the lodash library. Includes: .clamp(), .inRange(), .words(), .pad(), .has(), .invert(), .findKey(), .drop(), .dropWhile(), .chunk()
   - Credit Card Checker - Practice all concepts from this section by creating functions that parse credit card numbers and follow a specified algorithm to check if they are valid.
   - Mysterious Organism - Practice all concepts from this section by creating an object that models organisms with random DNA strands. It mutates, compares, and calculates the organisms survivability based on them.
