@@ -2,12 +2,15 @@
 
 My codecademy profile: [codecademy.com/profiles/wforbes87](https://www.codecademy.com/profiles/wforbes87)
 
+The Full-Stack Engineer course that Codecademy offers includes dozens of lessons, readings, quizzes, and videos that take you through all the basics of 43 subject areas. I've started taking this course to help fill in any gaps in knowledge I might have, learn Node.JS, and add certification to my resume. Here I'm including the projects that each of the sections end with. I hope to eventually using this as inspiration for my own educational courses in the coming years.
+
 ## About
 
-This is a repo of completed projects from the [Codecademy.com Full-Stack Engineer courses](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path).
+This is a repo of completed projects from the [Codecademy.com Full-Stack Engineer course](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path).
 
 
-These projects all had an intro paragraph and then a step-by-step set of instructions. I've included the intro paragraphs with each file here, but the step-by-steps were too long.
+These projects all had an intro paragraph and then a step-by-step set of instructions. I've included the intro paragraphs with each file here, but the step-by-steps would have been too long to include for most of them.
+
 
 ## Included files
 
