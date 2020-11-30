@@ -15,13 +15,13 @@ These projects all had an intro paragraph and then a step-by-step set of instruc
 ## Included files
 
 - 4 - JavaScript Syntax, Part 1
-  - Kelvin Weather - Teaches comments, variables, math operations, and string interpolation.
-  - Dog Years - Teaches variables, string functions, math operations, and string interpolation.
-  - Magic Eight Ball - Teaches conditionals, if/else, ternary expressions, switch/case statements, and random numbers
-  - Race Day - Teaches conditionals, if/else, and string interpolation.
-  - RockPaperScissors - Functions that run a simple Rock, Paper, Scissors game with the computer. Practices functions and conditionals.
-  - SleepDebtCalculator - Practice with functions and conditionals.
-  - Training Day - Practice with scope using anonymous functions.
-  - Practice: Code Challenges - A collection of 15 small challenges that cover everything from this section.
-  - Number Guesser - A few functions with specific instructions that runs a number guessing game in the browser on the project's codecademy page.
+  - [Kelvin Weather](https://github.com/wforbes/codecademy-fullstack/blob/master/4-JavaScriptSyntax_Part1/1-KelvinWeather.js) - Teaches comments, variables, math operations, and string interpolation.
+  - [Dog Years](https://github.com/wforbes/codecademy-fullstack/blob/master/4-JavaScriptSyntax_Part1/2-DogYears.js) - Teaches variables, string functions, math operations, and string interpolation.
+  - [Magic Eight Ball](https://github.com/wforbes/codecademy-fullstack/blob/master/4-JavaScriptSyntax_Part1/3-MagicEightBall.js) - Teaches conditionals, if/else, ternary expressions, switch/case statements, and random numbers
+  - [Race Day](https://github.com/wforbes/codecademy-fullstack/blob/master/4-JavaScriptSyntax_Part1/4-RaceDay.js) - Teaches conditionals, if/else, and string interpolation.
+  - [Rock, Paper, Scissors](https://github.com/wforbes/codecademy-fullstack/blob/master/4-JavaScriptSyntax_Part1/5-RockPaperScissors.js) - Functions that run a simple Rock, Paper, Scissors game with the computer. Practices functions and conditionals.
+  - [Sleep Debt Calculator](https://github.com/wforbes/codecademy-fullstack/blob/master/4-JavaScriptSyntax_Part1/6-SleepDebtCalculator.js) - Practice with functions and conditionals.
+  - [Training Day](https://github.com/wforbes/codecademy-fullstack/blob/master/4-JavaScriptSyntax_Part1/7-TrainingDays.js) - Practice with scope using anonymous functions.
+  - [Practice: Code Challenges](https://github.com/wforbes/codecademy-fullstack/blob/master/4-JavaScriptSyntax_Part1/8-Practice_CodeChallenges.js) - A collection of 15 small challenges that cover everything from this section.
+  - [Number Guesser](https://github.com/wforbes/codecademy-fullstack/blob/master/4-JavaScriptSyntax_Part1/9-NumberGuesser.js) - A few functions with specific instructions that runs a number guessing game in the browser on the project's codecademy page.
 - 5 - ...
