@@ -1,0 +1,2 @@
+This lesson linked to a video series on upcase/thoughtbot called "Mastering Git".
+https://thoughtbot.com/upcase/mastering-git

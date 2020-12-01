@@ -1,0 +1,38 @@
+A Git project can be thought of as having three parts:
+1 - Working Directory; This is where you'll be creating,
+	editing, deleting and organizing files.
+2 - Staging Area; This is where you list changes you made
+3 - Repository; This is where Git permanently stores those
+	changes as different versions of the project.
+
+Commands and definitions:
+git init - Turning a directory into a git repository is 
+as simple as initalizing it with the 'git init' command.
+This command sets up the tools Git needs to begin tracking 
+the changes made to files and folders in the directory.
+
+git status - As changes are made you can check the status 
+of the changes to the working directory. It lists 'Changes 
+to be committed', 'Changes not staged for commit', and 'Untracked
+files'.
+
+git add filename - Adds a file to the staging area to identify 
+it as being ready to commit.
+
+git diff filename - Displays the differences in the file between 
+the staging area and the working directory.
+
+git commit -m "Commit message" - Permanently stores the changes 
+from the staging area to the repository. The -m option denotes 
+the commit including a message. Conventions: The message must 
+be in quotation marks, should be written in present tense, and 
+should be brief (50 characters or less).
+
+git log - Lists your commits chronologically from the repository 
+to go back and view the running history of changes. Includes the 
+SHA code which is a 40 character string that uniquely identifies 
+the commit, the author, the date it was commited, and the commit 
+message
+
+
+
